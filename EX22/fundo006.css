@@ -17,10 +17,7 @@ body {
     /* Shorthand - background
         colo > image > position > repeat > [size] > attachment     navegadores ainda não aceitam a sh do size
     */
-
-
     
-
 main {
     background-color: white;
     max-width: 700px;
