@@ -12,8 +12,27 @@ Grandes telas: acima de 1200px
 */
 
 @media print { /* IMPRESSÂO */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     body {
-        background-image: url(../imagens/back-print.jpg);
+        background-image: url(../imagens/back-print.jpg); /* desnecessário */
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideop.com';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
     }
         img#phone { display: none;}
         img#Tablet {display: none;}
@@ -35,7 +54,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
     body {
         background-image: url(../imagens/back-tablet.jpg);
-    }
+}
     
         img#phone { display: none;}
         img#Tablet {display: block;}
