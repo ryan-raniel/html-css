@@ -1,0 +1,8 @@
+body {
+    height: 98vh;
+    border: 1px  dashed black;
+    background-image: url('https://raw.githubusercontent.com/gustavoguanabara/html-css/master/imagens/mascote.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
